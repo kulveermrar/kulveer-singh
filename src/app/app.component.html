@@ -1,21 +1,597 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
 
+<!--==========================
+Header
+============================-->
+<script>
+  $('.smooth-goto').on('click', function () {
+    $('html, body').animate({scrollTop: $(this.hash).offset().top - 50}, 1000);
+    return false;
+  });
+</script>
+
+<header id="header">
+
+  <div id="topbar">
+    <div class="container">
+      <div class="social-links">
+        <i>Hello, I'm Kulveer Singh. I have created this Website just for learning purpose..!!</i>
+        <a class="twitter" href="https://twitter.com/kulveermrar" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a class="facebook" href="https://fb.me/kulveersingh.mrar" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a class="linkedin" href="https://linkedin.com/in/kulveer-singh-a7464a117/" target="_blank"><i
+          class="fa fa-linkedin"></i></a>
+        <a class="instagram" href="https://instagram.com/im_kulveersingh" target="_blank"><i
+          class="fa fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="logo float-left">
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <h1 class="text-light"><a class="scrollto" href="#intro"><span>Kulveer Singh</span></a></h1>
+      <!-- <a href="#header" class="scrollto"><img src="../assets/img/logo.png" alt="" class="img-fluid"></a> -->
+    </div>
+
+    <nav class="main-nav float-right d-none d-lg-block">
+      <ul>
+        <li><a class="smooth-goto" href="#intro">Home</a></li>
+        <li><a class="smooth-goto" href="#aboutme">about me</a></li>
+        <li><a class="smooth-goto" href="#services">Services</a></li>
+        <li><a class="smooth-goto" href="#skills">Skills & Experience</a></li>
+        <li><a class="smooth-goto" href="#projects">Projects</a></li>
+        <li><a class="smooth-goto" href="#footer">Contact</a></li>
+      </ul>
+    </nav><!-- .main-nav -->
+
+  </div>
+</header><!-- #header -->
+
+<!--==========================
+Intro Section
+============================-->
+<section class="clearfix" id="intro">
+  <div class="container d-flex h-100">
+    <div class="row justify-content-center align-self-center">
+      <div class="col-md-6 intro-info order-md-first order-last">
+        <h2>Kulveer Singh<br>for Your <span>Business!</span></h2>
+        <div>
+          <a class="btn-get-started scrollto" href="#main">Get Started</a>
+        </div>
+      </div>
+
+      <div class="col-md-6 intro-img order-md-last order-first">
+        <img alt="" class="img-fluid" src="../assets/img/intro-bg.jpg">
+      </div>
+    </div>
+
+  </div>
+</section><!-- #intro -->
+
+<main id="main">
+
+  <!--==========================
+  About Us Section
+  ============================-->
+  <section id="aboutme">
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-5 col-md-6">
+          <div class="about-img item" style="width: 463px; border-radius: 10%; padding-top: 70px; padding-right: 70px">
+            <!--            <img alt="" src="../assets/img/47137510_1936004136514608_9071868800655163392_o.jpg" style="width: 100%; border-radius: 10%">-->
+            <img alt="" class="item" src="../assets/img/Screenshot from 2019-03-29 15-17-29.jpg"
+                 style="width: 100%; border-radius: 10%">
+          </div>
+        </div>
+
+        <div class="col-lg-7 col-md-6" style="padding-top: 70px">
+          <div class="about-content">
+            <h2>About Me</h2>
+            <hr>
+            <h4 style="padding-left: 35px">Hello<br>I'm Kulveer Singh</h4>
+            <ul style="list-style: none">
+              <p class="ion-android-checkmark-circle"> I am Working as a <i><b>Python Developer</b></i> from December
+                2016.</p>
+              <p class="ion-android-checkmark-circle"> I Have worked as a <i><b>Software Developer</b></i> at GCrew
+                Solutions Private Limited, Village Kari Kalan, District Ferozepur, Punjab 152023, from December 2016 to
+                April 2018.</p>
+              <p class="ion-android-checkmark-circle"> I Have working as a <i><b>Senior Software Developer</b></i> at
+                ADI Back Office (ADI-Group), Phase 8 Industrial Area, Sector 72, Mohali, Punjab 160072, from May 2018.
+              </p>
+              <p class="ion-android-checkmark-circle"> I Have Worked on 7 projects.</p>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section><!-- #about -->
+
+
+  <!--==========================
+  Services Section
+  ============================-->
+  <section class="section-bg" id="services">
+    <div class="container">
+
+      <header class="section-header">
+        <h3>Services</h3>
+        <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
+      </header>
+
+      <div class="row">
+
+        <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
+          <div class="box">
+            <div class="icon" style="background: #fceef3;"><i class="ion-ios-analytics-outline"
+                                                              style="color: #ff689b;"></i></div>
+            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+              occaecati cupiditate non provident</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
+          <div class="box">
+            <div class="icon" style="background: #fff0da;"><i class="ion-ios-bookmarks-outline"
+                                                              style="color: #e98e06;"></i></div>
+            <h4 class="title"><a href="">Dolor Sitema</a></h4>
+            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat tarad limino ata</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+          <div class="box">
+            <div class="icon" style="background: #e6fdfc;"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i>
+            </div>
+            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+          <div class="box">
+            <div class="icon" style="background: #eafde7;"><i class="ion-ios-speedometer-outline"
+                                                              style="color:#41cf2e;"></i></div>
+            <h4 class="title"><a href="">Magni Dolores</a></h4>
+            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+          <div class="box">
+            <div class="icon" style="background: #e1eeff;"><i class="ion-ios-world-outline" style="color: #2282ff;"></i>
+            </div>
+            <h4 class="title"><a href="">Nemo Enim</a></h4>
+            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+              voluptatum deleniti atque</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+          <div class="box">
+            <div class="icon" style="background: #ecebff;"><i class="ion-ios-clock-outline" style="color: #8660fe;"></i>
+            </div>
+            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum
+              soluta nobis est eligendi</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- #services -->
+
+  <!--==========================
+  Call To Action Section
+  ============================-->
+  <section class="wow fadeInUp" id="call-to-action">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9 text-center text-lg-left">
+          <h3 class="cta-title">Call To Action</h3>
+          <p class="cta-text">Want to be a pain in the cupidatat cillum has been criticized in the Duis et dolore magna
+            flee produces no resultant pleasure. Excepteur cupidatat blacks are not excepteur, is soothing to the soul,
+            that is, they deserted the general duties of those who are to blame for your troubles.</p>
+        </div>
+        <div class="col-lg-3 cta-btn-container text-center">
+          <a class="cta-btn align-middle" href="tel:+919041778842">Call To Action</a>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- #call-to-action -->
+
+  <!--==========================
+  skills Section
+  ============================-->
+  <section class="section-bg" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <h3>Skills</h3>
+      </div>
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6 wow fadeInUp">
+          <div class="member">
+            <img alt="" class="img-fluid" src="../assets/img/6bd224a8-e827-4593-b5b4-483338e9999e-python.png">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>Python</h4>
+                <span>2+ year Experience</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="member">
+            <img alt="" class="img-fluid" src="../assets/img/django.png">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>Django</h4>
+                <span>6+ months Experience</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="member">
+            <img alt="" class="img-fluid" src="../assets/img/mongodb-226029.png">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>MongoDB</h4>
+                <span>2+ year Experience</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="member">
+            <img alt="" class="img-fluid" src="../assets/img/0dd7193f-e747-4a15-b797-818b9fac3656-mysql.png">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>MySQL</h4>
+                <span>2+ year Experience</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="member">
+            <img alt="" class="img-fluid" src="../assets/img/restful-api-logo-256.png">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>Django Rest Framework</h4>
+                <span>6+ months Experience</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="member">
+            <img alt="" class="img-fluid" src="../assets/img/html_logo_png_685289.png">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>HTML</h4>
+                <span>Don't have any experience but learnt</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="member">
+            <img alt="" class="img-fluid" src="../assets/img/css.webp">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>CSS</h4>
+                <span>Don't have any experience but learnt</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="member">
+            <img alt="" class="img-fluid" src="../assets/img/javascript.png">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>JavaScript</h4>
+                <span>Don't have any experience but learnt</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="member">
+            <img alt="" class="img-fluid" src="../assets/img/angular.png">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>Angular JS</h4>
+                <span>Don't have any experience but learnt</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- #skills -->
+
+  <!--==========================
+  projects Section
+  ============================-->
+  <section class="wow fadeInUp" id="projects">
+    <div class="container">
+
+      <header class="section-header">
+        <h3>Our projects</h3>
+      </header>
+
+      <div class="owl-carousel projects-carousel">
+        <img alt="" src="../assets/img/projects/client-1.png">
+        <img alt="" src="../assets/img/projects/client-2.png">
+        <img alt="" src="../assets/img/projects/client-3.png">
+        <img alt="" src="../assets/img/projects/client-4.png">
+        <img alt="" src="../assets/img/projects/client-5.png">
+        <img alt="" src="../assets/img/projects/client-6.png">
+        <img alt="" src="../assets/img/projects/client-7.png">
+        <img alt="" src="../assets/img/projects/client-8.png">
+      </div>
+
+    </div>
+  </section><!-- #projects -->
+
+
+  <!--==========================
+  Pricing Section
+  ============================-->
+  <section class="wow fadeInUp section-bg" id="pricing">
+
+    <div class="container">
+
+      <header class="section-header">
+        <h3>Pricing</h3>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+      </header>
+
+      <div class="row flex-items-xs-middle flex-items-xs-center">
+
+        <!-- Basic Plan  -->
+        <div class="col-xs-12 col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h3><span class="currency">$</span>19<span class="period">/month</span></h3>
+            </div>
+            <div class="card-block">
+              <h4 class="card-title">
+                Basic Plan
+              </h4>
+              <ul class="list-group">
+                <li class="list-group-item">Odio animi voluptates</li>
+                <li class="list-group-item">Inventore quisquam et</li>
+                <li class="list-group-item">Et perspiciatis suscipit</li>
+                <li class="list-group-item">24/7 Support System</li>
+              </ul>
+              <a class="btn" href="#">Choose Plan</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Regular Plan  -->
+        <div class="col-xs-12 col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h3><span class="currency">$</span>29<span class="period">/month</span></h3>
+            </div>
+            <div class="card-block">
+              <h4 class="card-title">
+                Regular Plan
+              </h4>
+              <ul class="list-group">
+                <li class="list-group-item">Odio animi voluptates</li>
+                <li class="list-group-item">Inventore quisquam et</li>
+                <li class="list-group-item">Et perspiciatis suscipit</li>
+                <li class="list-group-item">24/7 Support System</li>
+              </ul>
+              <a class="btn" href="#">Choose Plan</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Premium Plan  -->
+        <div class="col-xs-12 col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h3><span class="currency">$</span>39<span class="period">/month</span></h3>
+            </div>
+            <div class="card-block">
+              <h4 class="card-title">
+                Premium Plan
+              </h4>
+              <ul class="list-group">
+                <li class="list-group-item">Odio animi voluptates</li>
+                <li class="list-group-item">Inventore quisquam et</li>
+                <li class="list-group-item">Et perspiciatis suscipit</li>
+                <li class="list-group-item">24/7 Support System</li>
+              </ul>
+              <a class="btn" href="#">Choose Plan</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section><!-- #pricing -->
+
+</main>
+
+<!--==========================
+Footer
+============================-->
+<footer class="section-bg" id="footer">
+  <div class="footer-top">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-6">
+
+          <div class="row">
+
+            <div class="col-sm-6">
+
+              <div class="footer-info">
+                <h3>Rapid</h3>
+                <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies
+                  darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum
+                  leo. Amet volutpat consequat mauris nunc congue.</p>
+              </div>
+
+              <div class="footer-newsletter">
+                <h4>Our Newsletter</h4>
+                <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore
+                  legam minim quorum culpa amet magna export quem.</p>
+                <form action="" method="post">
+                  <input name="email" type="email"><input type="submit" value="Subscribe">
+                </form>
+              </div>
+
+            </div>
+
+            <div class="col-sm-6">
+              <div class="footer-links">
+                <h4>Useful Links</h4>
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Terms of service</a></li>
+                  <li><a href="#">Privacy policy</a></li>
+                </ul>
+              </div>
+
+              <div class="footer-links">
+                <h4>Contact Us</h4>
+                <p>
+                  A108 Adam Street <br>
+                  New York, NY 535022<br>
+                  United States <br>
+                  <strong>Phone:</strong> +1 5589 55488 55<br>
+                  <strong>Email:</strong> info@example.com<br>
+                </p>
+              </div>
+
+              <div class="social-links">
+                <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+                <a class="instagram" href="#"><i class="fa fa-instagram"></i></a>
+                <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-lg-6">
+
+          <div class="form">
+
+            <h4>Send us a message</h4>
+            <p>Eos ipsa est voluptates. Nostrum nam libero ipsa vero. Debitis quasi sit eaque numquam similique commodi
+              harum aut temporibus.</p>
+            <form action="" class="contactForm" method="post" role="form">
+              <div class="form-group">
+                <input class="form-control" data-msg="Please enter at least 4 chars" data-rule="minlen:4" id="name"
+                       name="name"
+                       placeholder="Your Name" type="text"/>
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input class="form-control" data-msg="Please enter a valid email" data-rule="email" id="email"
+                       name="email"
+                       placeholder="Your Email" type="email"/>
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input class="form-control" data-msg="Please enter at least 8 chars of subject" data-rule="minlen:4"
+                       id="subject" name="subject"
+                       placeholder="Subject" type="text"/>
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+<textarea class="form-control" data-msg="Please write something for us" data-rule="required"
+          name="message"
+          placeholder="Message" rows="5"></textarea>
+                <div class="validation"></div>
+              </div>
+
+              <div id="sendmessage">Your message has been sent. Thank you!</div>
+              <div id="errormessage"></div>
+
+              <div class="text-center">
+                <button title="Send Message" type="submit">Send Message</button>
+              </div>
+            </form>
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="copyright">
+      &copy; Copyright <strong>Rapid</strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      <!--
+      All the links in the footer should remain intact.
+      You can delete the links only if you purchased the pro version.
+      Licensing information: https://bootstrapmade.com/license/
+      Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Rapid
+      -->
+      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    </div>
+  </div>
+</footer><!-- #footer -->
+
+<a class="back-to-top" href="#"><i class="fa fa-chevron-up"></i></a>
+<!-- Uncomment below i you want to use a preloader -->
+<!-- <div id="preloader"></div> -->
+
+<!-- JavaScript Libraries -->
+<script src="../assets/lib/jquery/jquery.min.js"></script>
+<script src="../assets/lib/jquery/jquery-migrate.min.js"></script>
+<script src="../assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/lib/easing/easing.min.js"></script>
+<script src="../assets/lib/mobile-nav/mobile-nav.js"></script>
+<script src="../assets/lib/wow/wow.min.js"></script>
+<script src="../assets/lib/waypoints/waypoints.min.js"></script>
+<script src="../assets/lib/counterup/counterup.min.js"></script>
+<script src="../assets/lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="../assets/lib/isotope/isotope.pkgd.min.js"></script>
+<script src="../assets/lib/lightbox/js/lightbox.min.js"></script>
+<!-- Contact Form JavaScript File -->
+<script src="../assets/contactform/contactform.js"></script>
+
+<!-- Template Main Javascript File -->
+<script src="../assets/js/main.js"></script>
 <router-outlet></router-outlet>
