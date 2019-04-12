@@ -1,0 +1,50 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<div class="divbody">
+<div class="body p-3">
+  <nav id="navbar" class="navbar navbar-expand-md navbar-dark ">
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link text-light" style="margin: 5px; font-size: 20px; font-family: 'Raleway', sans-serif; " href="#">Home</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link text-light" style="margin: 5px; font-size: 20px; font-family: 'Raleway', sans-serif; " href="#aboutme">aboutme</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" style="margin: 5px; font-size: 20px; font-family: 'Raleway', sans-serif; " href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <div class="mx-auto order-0">
+        <a class="navbar-brand mx-auto" style=" font-size: 70px; font-family: 'Great Vibes', cursive;" href="#">Kulveer Singh</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link text-light" style="margin: 5px; font-size: 20px; font-family: 'Raleway', sans-serif; " href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" style="margin: 5px; font-size: 20px; font-family: 'Raleway', sans-serif; " href="#">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" style="margin: 5px; font-size: 20px; font-family: 'Raleway', sans-serif; " href="#">Experience</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+</div>
+<div class="jumbotron bg-dark text-light">
+  <div class="jumbotron bg-dark text-light" style="font-size: 20px; font-family: 'Raleway', sans-serif;" id="aboutme">
+    <h1>About Me</h1>
+    <p>Hello,</p>
+    <p>I'm Kulveer Singh.</p>
+    <p>Working as a PYTHON DEVELOPER at ADI BACK OFFICE (ADI-Group)</p>
+  </div>
+</div>
+</div>
+<router-outlet></router-outlet>
+font-variant: small-caps;
