@@ -1062,14 +1062,14 @@ h6 {
   background-color: #1bb1dc;
 }
 
-/* Pricing Section
+/* projects Section
 --------------------------------*/
 
-#pricing {
+#projects {
   padding: 80px 0;
 }
 
-#pricing .card {
+#projects .card {
   border: 0;
   border-radius: 0px;
   box-shadow: 0 3px 0px 0 rgba(65, 62, 102, 0.08);
@@ -1078,7 +1078,7 @@ h6 {
   position: relative;
 }
 
-#pricing .card:after {
+#projects .card:after {
   content: '';
   position: absolute;
   top: 0;
@@ -1089,47 +1089,47 @@ h6 {
   transition: 0.5s;
 }
 
-#pricing .card:hover {
+#projects .card:hover {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
   box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.08);
 }
 
-#pricing .card:hover:after {
+#projects .card:hover:after {
   width: 100%;
 }
 
-#pricing .card .card-header {
+#projects .card .card-header {
   background-color: white;
   border-bottom: 0px;
   -moz-text-align-last: center;
   text-align-last: center;
 }
 
-#pricing .card .card-title {
+#projects .card .card-title {
   margin-bottom: 16px;
   color: #535074;
 }
 
-#pricing .card .card-block {
+#projects .card .card-block {
   padding-top: 0;
   text-align: center;
 }
 
-#pricing .card .list-group-item {
+#projects .card .list-group-item {
   border: 0px;
   padding: 6px;
   color: #413e66;
   font-weight: 300;
 }
 
-#pricing .card h3 {
+#projects .card h3 {
   font-size: 64px;
   margin-bottom: 0px;
   color: #535074;
 }
 
-#pricing .card h3 .currency {
+#projects .card h3 .currency {
   font-size: 30px;
   position: relative;
   font-weight: 400;
@@ -1137,17 +1137,17 @@ h6 {
   letter-spacing: 0px;
 }
 
-#pricing .card h3 .period {
+#projects .card h3 .period {
   font-size: 16px;
   color: #6c67a3;
   letter-spacing: 0px;
 }
 
-#pricing .card .list-group {
+#projects .card .list-group {
   margin-bottom: 15px;
 }
 
-#pricing .card .btn {
+#projects .card .btn {
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 500;
@@ -1161,7 +1161,7 @@ h6 {
   color: #fff;
 }
 
-#pricing .card .btn:hover {
+#projects .card .btn:hover {
   background: #0a98c0;
 }
 
@@ -1501,11 +1501,11 @@ h6 {
     padding-top: 30px;
   }
 
-  #pricing {
+  #projects {
     padding-bottom: 30px;
   }
 
-  #pricing .card {
+  #projects .card {
     margin-bottom: 50px;
   }
 }
