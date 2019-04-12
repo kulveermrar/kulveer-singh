@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="312889ec-0b3f-4414-a3ad-e962f82a5024" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/dist/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path="projects/home/src/assets/.gitkeep" />
+    <ignored path="projects/portfolio/src/assets/.gitkeep" />
+    <ignored path="src/assets/img/47137510_1936004136514608_9071868800655163392_o.jpg" />
+    <ignored path="src/assets/img/about-img.jpg" />
+    <ignored path="projects/home/src/app/app.component.css" />
+    <ignored path="projects/portfolio/src/app/app.component.css" />
+    <ignored path="src/app/app.component.css_bk" />
+    <ignored path="projects/home/src/app/app.component.html" />
+    <ignored path="projects/portfolio/src/app/app.component.html" />
+    <ignored path="src/app/app.component.html_bk" />
+    <ignored path="projects/home/src/app/app.component.spec.ts" />
+    <ignored path="projects/portfolio/src/app/app.component.spec.ts" />
+    <ignored path="projects/home/src/app/app.component.ts" />
+    <ignored path="projects/portfolio/src/app/app.component.ts" />
+    <ignored path="projects/portfolio-e2e/src/app.e2e-spec.ts" />
+    <ignored path="projects/home-e2e/src/app.e2e-spec.ts" />
+    <ignored path="projects/home/src/app/app.module.ts" />
+    <ignored path="projects/portfolio/src/app/app.module.ts" />
+    <ignored path="projects/portfolio-e2e/src/app.po.ts" />
+    <ignored path="projects/home-e2e/src/app.po.ts" />
+    <ignored path="src/assets/img/portfolio/app1.jpg" />
+    <ignored path="src/assets/img/portfolio/app2.jpg" />
+    <ignored path="src/assets/img/portfolio/app3.jpg" />
+    <ignored path="src/assets/img/apple-touch-icon.png" />
+    <ignored path="src/assets/img/blurred-blurry-bokeh-1503898.jpg" />
+    <ignored path="projects/home/browserslist" />
+    <ignored path="projects/portfolio/browserslist" />
+    <ignored path="src/assets/img/portfolio/card1.jpg" />
+    <ignored path="src/assets/img/portfolio/card2.jpg" />
+    <ignored path="src/assets/img/portfolio/card3.jpg" />
+    <ignored path="src/assets/img/clients/client-1.png" />
+    <ignored path="src/assets/img/clients/client-2.png" />
+    <ignored path="src/assets/img/clients/client-3.png" />
+    <ignored path="src/assets/img/clients/client-4.png" />
+    <ignored path="src/assets/img/clients/client-5.png" />
+    <ignored path="src/assets/img/clients/client-6.png" />
+    <ignored path="src/assets/img/clients/client-7.png" />
+    <ignored path="src/assets/img/clients/client-8.png" />
+    <ignored path="src/assets/contactform/contactform.js" />
+    <ignored path="projects/home/src/environments/environment.prod.ts" />
+    <ignored path="projects/portfolio/src/environments/environment.prod.ts" />
+    <ignored path="projects/home/src/environments/environment.ts" />
+    <ignored path="projects/portfolio/src/environments/environment.ts" />
+    <ignored path="projects/home/src/favicon.ico" />
+    <ignored path="projects/portfolio/src/favicon.ico" />
+    <ignored path="src/assets/img/favicon.png" />
+    <ignored path="src/assets/img/features-1.svg" />
+    <ignored path="src/assets/img/features-2.svg" />
+    <ignored path="src/assets/img/header-bg.psd" />
+    <ignored path="projects/home/src/index.html" />
+    <ignored path="projects/portfolio/src/index.html" />
+    <ignored path="src/index_bk.html" />
+    <ignored path="src/assets/img/intro-bg.jpg" />
+    <ignored path="src/assets/img/intro-img.svg" />
+    <ignored path="projects/home/karma.conf.js" />
+    <ignored path="projects/portfolio/karma.conf.js" />
+    <ignored path="src/assets/js/main.js" />
+    <ignored path="projects/home/src/main.ts" />
+    <ignored path="projects/portfolio/src/main.ts" />
+    <ignored path="projects/home/src/polyfills.ts" />
+    <ignored path="projects/portfolio/src/polyfills.ts" />
+    <ignored path="projects/portfolio-e2e/protractor.conf.js" />
+    <ignored path="projects/home-e2e/protractor.conf.js" />
+    <ignored path="src/assets/contactform/Readme.txt" />
+    <ignored path="src/assets/css/scss-files.txt" />
+    <ignored path="src/assets/css/style.css" />
+    <ignored path="projects/home/src/styles.css" />
+    <ignored path="projects/portfolio/src/styles.css" />
+    <ignored path="src/assets/img/team-1.jpg" />
+    <ignored path="src/assets/img/team-2.jpg" />
+    <ignored path="src/assets/img/team-3.jpg" />
+    <ignored path="src/assets/img/team-4.jpg" />
+    <ignored path="projects/home/src/test.ts" />
+    <ignored path="projects/portfolio/src/test.ts" />
+    <ignored path="src/assets/img/testimonial-1.jpg" />
+    <ignored path="src/assets/img/testimonial-2.jpg" />
+    <ignored path="src/assets/img/testimonial-3.jpg" />
+    <ignored path="src/assets/img/testimonial-4.jpg" />
+    <ignored path="projects/home/tsconfig.app.json" />
+    <ignored path="projects/portfolio/tsconfig.app.json" />
+    <ignored path="projects/portfolio-e2e/tsconfig.e2e.json" />
+    <ignored path="projects/home-e2e/tsconfig.e2e.json" />
+    <ignored path="projects/home/tsconfig.spec.json" />
+    <ignored path="projects/portfolio/tsconfig.spec.json" />
+    <ignored path="projects/home/tslint.json" />
+    <ignored path="projects/portfolio/tslint.json" />
+    <ignored path="src/assets/img/portfolio/web1.jpg" />
+    <ignored path="src/assets/img/portfolio/web2.jpg" />
+    <ignored path="src/assets/img/portfolio/web3.jpg" />
+    <ignored path="src/assets/img/why-us.jpg" />
+    <ignored path="src/assets/img/0dd7193f-e747-4a15-b797-818b9fac3656-mysql.png" />
+    <ignored path="src/assets/img/13130930181548330924-256.png" />
+    <ignored path="src/assets/img/6bd224a8-e827-4593-b5b4-483338e9999e-python.png" />
+    <ignored path="src/assets/img/angular.png" />
+    <ignored path="src/assets/img/projects/client-1.png" />
+    <ignored path="src/assets/img/projects/client-2.png" />
+    <ignored path="src/assets/img/projects/client-3.png" />
+    <ignored path="src/assets/img/projects/client-4.png" />
+    <ignored path="src/assets/img/projects/client-5.png" />
+    <ignored path="src/assets/img/projects/client-6.png" />
+    <ignored path="src/assets/img/projects/client-7.png" />
+    <ignored path="src/assets/img/projects/client-8.png" />
+    <ignored path="src/assets/img/css.webp" />
+    <ignored path="src/assets/img/django.png" />
+    <ignored path="src/assets/img/html_logo_png_685289.png" />
+    <ignored path="src/assets/img/javascript.png" />
+    <ignored path="src/assets/img/mongodb-226029.png" />
+    <ignored path="src/assets/img/Python-Logo-Free-Download-PNG.png" />
+    <ignored path="src/assets/img/Python-Logo-PNG-Image.png" />
+    <ignored path="src/assets/img/restful-api-logo-256.png" />
+    <ignored path="src/assets/img/Screenshot from 2019-03-29 15-17-29.jpg" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-98">
+              <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>scroll</find>
+      <find>../assets/img/intro-img.svg</find>
+      <find>=&quot;portfolio</find>
+      <find>clients</find>
+      <find>team</find>
+      <find>portfolio</find>
+      <find>id=&quot;portfolio</find>
+      <find>about</find>
+      <find>#call-to-action</find>
+      <find>Why choose us?</find>
+      <find>.img-fluid</find>
+      <find>img-fluid</find>
+      <find>&lt;li&gt;&lt;i class=&quot;ion-android-checkmark-circle&quot;&gt;&lt;/i&gt;</find>
+      <find>padding-top: 70px</find>
+      <find>@m</find>
+      <find>href=&quot;</find>
+      <find>_</find>
+      <find>fa fa-bars</find>
+      <find>mobile - nav d-lg - none</find>
+      <find>$mobile_nav</find>
+      <find>mob</find>
+      <find>mobile-nav-toggle d-lg-none</find>
+      <find>'</find>
+      <find>function (</find>
+      <find>top_space</find>
+      <find>Services</find>
+      <find>pric</find>
+      <find>pricing</find>
+      <find>smooth-goto</find>
+      <find>tel</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&lt;li&gt;&lt;a href=&quot;#&quot;&gt;</replace>
+      <replace>&lt;/a&gt;&lt;/li&gt;</replace>
+      <replace>nav-bar</replace>
+      <replace>nav-link text-light</replace>
+      <replace>text-light&quot; style=&quot;margin: 10px; padding: 10px&quot;</replace>
+      <replace>padding: 10px;&quot; href</replace>
+      <replace>margin: 5px; font-size: 30px; font-family: 'Great Vibes', cursive;</replace>
+      <replace>20</replace>
+      <replace>assets</replace>
+      <replace>href=&quot;https://</replace>
+      <replace>a href=&quot;../assets/img</replace>
+      <replace>script src=&quot;../assets/lib</replace>
+      <replace>skills</replace>
+      <replace>aboutme</replace>
+      <replace>Our Clients</replace>
+      <replace>&lt;li class=&quot;ion-android-checkmark-circle&quot;&gt;</replace>
+      <replace>mobile-nav d-lg-none</replace>
+      <replace>$mobileNav</replace>
+      <replace>href=&quot;assets/</replace>
+      <replace>&quot;</replace>
+      <replace>function(</replace>
+      <replace>topSpace</replace>
+      <replace>projects</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/app/app.component.spec.ts" />
+        <option value="$PROJECT_DIR$/projects/home/src/index.html" />
+        <option value="$PROJECT_DIR$/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/src/assets/lib/bootstrap/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/assets/lib/ionicons/css/ionicons.min.css" />
+        <option value="$USER_HOME$/Downloads/Rapid/index.html" />
+        <option value="$PROJECT_DIR$/src/assets/lib/font-awesome/css/font-awesome.min.css" />
+        <option value="$PROJECT_DIR$/src/assets/lib/animate/animate.min.css" />
+        <option value="$PROJECT_DIR$/src/assets/lib/owlcarousel/assets/owl.carousel.min.css" />
+        <option value="$PROJECT_DIR$/src/assets/lib/lightbox/css/lightbox.min.css" />
+        <option value="$PROJECT_DIR$/src/assets/lib/jquery/jquery.min.js" />
+        <option value="$PROJECT_DIR$/src/assets/lib/jquery/jquery-migrate.min.js" />
+        <option value="$PROJECT_DIR$/src/assets/lib/bootstrap/js/bootstrap.bundle.min.js" />
+        <option value="$PROJECT_DIR$/src/assets/lib/easing/easing.min.js" />
+        <option value="$PROJECT_DIR$/src/assets/lib/mobile-nav/mobile-nav.js" />
+        <option value="$PROJECT_DIR$/src/assets/lib/wow/wow.min.js" />
+        <option value="$PROJECT_DIR$/src/assets/lib/waypoints/waypoints.min.js" />
+        <option value="$PROJECT_DIR$/src/assets/lib/counterup/counterup.min.js" />
+        <option value="$PROJECT_DIR$/src/assets/lib/owlcarousel/owl.carousel.min.js" />
+        <option value="$PROJECT_DIR$/src/assets/lib/isotope/isotope.pkgd.min.js" />
+        <option value="$PROJECT_DIR$/src/assets/lib/lightbox/js/lightbox.min.js" />
+        <option value="$PROJECT_DIR$/src/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/src/assets/contactform/contactform.js" />
+        <option value="$PROJECT_DIR$/src/assets/img/features-1.svg" />
+        <option value="$PROJECT_DIR$/src/assets/img/features-2.svg" />
+        <option value="$PROJECT_DIR$/src/assets/img/intro-img.svg" />
+        <option value="$PROJECT_DIR$/src/app/app.component.css" />
+        <option value="$PROJECT_DIR$/src/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/app/app.component.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="57" />
+    <option name="y" value="99" />
+    <option name="width" value="636" />
+    <option name="height" value="654" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="kulveer-singh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kulveer-singh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kulveer-singh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kulveer-singh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kulveer-singh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kulveer-singh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kulveer-singh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kulveer-singh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kulveer-singh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kulveer-singh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kulveer-singh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kulveer-singh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/node_modules/protractor" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/img" />
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/app" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="E2E Tests" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-package value="$PROJECT_DIR$/node_modules/protractor" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <package-manager value="/usr/lib/nodejs/npm" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Angular Application" />
+      <item itemvalue="npm.Angular CLI Server" />
+      <item itemvalue="Protractor.E2E Tests" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="312889ec-0b3f-4414-a3ad-e962f82a5024" name="Default Changelist" comment="" />
+      <created>1553921805483</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553921805483</updated>
+      <workItem from="1553921807485" duration="1426000" />
+      <workItem from="1553928142373" duration="2691000" />
+      <workItem from="1554088557835" duration="8147000" />
+      <workItem from="1554174527737" duration="2583000" />
+      <workItem from="1554202576009" duration="3624000" />
+      <workItem from="1554260834352" duration="10617000" />
+      <workItem from="1554347478372" duration="10350000" />
+      <workItem from="1554458311641" duration="217000" />
+      <workItem from="1554463045947" duration="497000" />
+      <workItem from="1554966473254" duration="6900000" />
+      <workItem from="1555040715877" duration="3403000" />
+      <workItem from="1555046497945" duration="1744000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="52199000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="57" y="25" width="1543" height="875" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4950298" visible="true" weight="0.21710087" />
+      <window_info id="Structure" order="1" sideWeight="0.5049702" side_tool="true" weight="0.28590515" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
+      <window_info anchor="bottom" x="82" y="96" width="1507" height="716" id="Run" order="2" sideWeight="0.49766198" weight="0.9597855" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3297587" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.499666" weight="0.32841823" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.502338" side_tool="true" weight="0.50402147" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.498998" visible="true" weight="0.95989305" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3297587" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="TypeScript" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3299933" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32932532" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4950298" visible="true" weight="0.2945892" />
+      <window_info id="Structure" order="1" sideWeight="0.5049702" side_tool="true" weight="0.28590515" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
+      <window_info anchor="bottom" x="82" y="96" width="1507" height="716" id="Run" order="2" sideWeight="0.49766198" weight="0.50402147" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3297587" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.499666" visible="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.502338" side_tool="true" weight="0.50402147" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.498998" weight="0.32171583" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3297587" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="TypeScript" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3299933" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32932532" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LIMIT_HISTORY" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/kulveersingh" />
+    </ignored-roots>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/assets/lib/lightbox/images/close.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/lib/lightbox/css/lightbox.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="186" column="32" selection-start-line="186" selection-start-column="32" selection-end-line="186" selection-end-column="32" />
+          <folding>
+            <element signature="e#1023#1110#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/lib/jquery/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/lib/jquery/jquery-migrate.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2108">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/lib/bootstrap/js/bootstrap.bundle.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/lib/easing/easing.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/lib/mobile-nav/mobile-nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/lib/wow/wow.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3758">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/lib/waypoints/waypoints.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/lib/counterup/counterup.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/lib/owlcarousel/owl.carousel.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12008" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/lib/isotope/isotope.pkgd.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15638">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="43" column="43" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/contactform/contactform.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/lib/lightbox/js/lightbox.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/0dd7193f-e747-4a15-b797-818b9fac3656-mysql.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/6bd224a8-e827-4593-b5b4-483338e9999e-python.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/47137510_1936004136514608_9071868800655163392_o.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/13130930181548330924-256.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/about-img.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/angular.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/blurred-blurry-bokeh-1503898.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/django.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/features-1.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/features-2.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/html_logo_png_685289.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/intro-bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/intro-img.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/javascript.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/mongodb-226029.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/Python-Logo-Free-Download-PNG.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/Python-Logo-PNG-Image.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/restful-api-logo-256.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/Screenshot from 2019-03-29 15-17-29.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/team-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/team-2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/team-3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/team-4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/testimonial-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/testimonial-2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/testimonial-3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/testimonial-4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/why-us.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6742">
+          <caret line="1507" column="11" selection-start-line="1507" selection-start-column="11" selection-end-line="1507" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/apple-touch-icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/favicon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/protractor/built/element.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-98">
+          <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#0;n#main#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
