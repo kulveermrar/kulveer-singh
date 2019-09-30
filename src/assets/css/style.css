@@ -206,26 +206,52 @@ h6 {
 }
 
 
-
 @-webkit-keyframes AnimationName {
-    10%{background-position:10% 60%}
-    60%{background-position:120% 60%}
-    120%{background-position:10% 60%}
+  10% {
+    background-position: 10% 60%
+  }
+  60% {
+    background-position: 120% 60%
+  }
+  120% {
+    background-position: 10% 60%
+  }
 }
+
 @-moz-keyframes AnimationName {
-    10%{background-position:10% 60%}
-    60%{background-position:120% 60%}
-    120%{background-position:10% 60%}
+  10% {
+    background-position: 10% 60%
+  }
+  60% {
+    background-position: 120% 60%
+  }
+  120% {
+    background-position: 10% 60%
+  }
 }
+
 @-o-keyframes AnimationName {
-    10%{background-position:10% 60%}
-    60%{background-position:120% 60%}
-    120%{background-position:10% 60%}
+  10% {
+    background-position: 10% 60%
+  }
+  60% {
+    background-position: 120% 60%
+  }
+  120% {
+    background-position: 10% 60%
+  }
 }
+
 @keyframes AnimationName {
-    10%{background-position:10% 60%}
-    60%{background-position:120% 60%}
-    120%{background-position:10% 60%}
+  10% {
+    background-position: 10% 60%
+  }
+  60% {
+    background-position: 120% 60%
+  }
+  120% {
+    background-position: 10% 60%
+  }
 }
 
 
