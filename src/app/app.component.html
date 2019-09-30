@@ -1,10 +1,3 @@
-<script>
-    $('.smooth-goto').on('click', function () {
-        $('html, body').animate({scrollTop: $(this.hash).offset().top - 50}, 1000);
-        return false;
-    });
-</script>
-
 <header id="header" style="text-align: justify; text-justify: inter-word;">
   <div class="container">
     <div class="logo float-left">
@@ -47,7 +40,6 @@
 
         <div class="col-lg-5 col-md-6">
           <div class="about-img item" style="width: 463px; border-radius: 10%; padding-top: 70px; padding-right: 70px">
-            <!--            <img alt="" src="../assets/img/47137510_1936004136514608_9071868800655163392_o.jpg" style="width: 100%; border-radius: 10%">-->
             <img alt="" class="item" src="../assets/img/Screenshot from 2019-08-06 13-17-20.png"
                  style="width: 100%">
           </div>
@@ -97,7 +89,7 @@
           <div class="box">
             <div class="icon" style="background: #fceef3;" style="margin: 10px"><i class="fa fa-code fa-3x"
                                                               style="color: #ff689b;"></i></div>
-            <h4 class="title"><a href="">Software Development</a></h4>
+            <h4 class="title"><a href="#services">Software Development</a></h4>
             <p class="description" style="text-align: justify; text-justify: inter-word;">Using Python or other Database
               Technologies, develop professional software/utilities
               for stand-alone systems. I develop softwares/utilities for Linux, Windows and IOS.</p>
@@ -107,7 +99,7 @@
           <div class="box">
             <div class="icon" style="background: #fff0da;" style="margin: 10px"><i class="fa fa-desktop fa-3x"
                                                               style="color: #e98e06;"></i></div>
-            <h4 class="title"><a href="">Web / App Development</a></h4>
+            <h4 class="title"><a href="#services">Web / App Development</a></h4>
             <p class="description" style="text-align: justify; text-justify: inter-word;">I develop web and mobile apps
               using latest technologies like bootstrap, angularjs,
               javascript. All our web development is based on mobile first approach.</p>
@@ -118,7 +110,7 @@
           <div class="box">
             <div class="icon" style="background: #e6fdfc;" style="margin: 10px"><i class="fa fa-gears fa-3x" style="color: #3fcdc7;"></i>
             </div>
-            <h4 class="title">Software Maintenance</h4>
+            <h4 class="title"><a href="#services">Software Maintenance</a></h4>
             <p class="description" style="text-align: justify; text-justify: inter-word;">I provides 24x7 unlimited
               support for software maintenance with product/software
               version updates to keep your environment running optimally.</p>
@@ -135,11 +127,11 @@
   ============================-->
   <section class="section-bg test" id="skills">
     <div class="container">
-      <div class="section-header">
-        <br>
+      <header class="section-header">
         <br>
         <h3>Skills</h3>
-      </div>
+        <hr>
+      </header>
       <div class="row">
 
         <div class="col-lg-3 col-md-6 wow fadeInUp">
@@ -471,31 +463,5 @@ Footer
     </div>
   </div>
 </footer><!-- #footer -->
-
-<!-- Uncomment below i you want to use a preloader -->
-<!-- <div id="preloader"></div> -->
-
-<!-- JavaScript Libraries -->
-<script src="../assets/lib/jquery/jquery.min.js"></script>
-<script src="../assets/lib/jquery/jquery-migrate.min.js"></script>
-<script src="../assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="../assets/lib/easing/easing.min.js"></script>
-<script src="../assets/lib/mobile-nav/mobile-nav.js"></script>
-<script src="../assets/lib/wow/wow.min.js"></script>
-<script src="../assets/lib/waypoints/waypoints.min.js"></script>
-<script src="../assets/lib/counterup/counterup.min.js"></script>
-<script src="../assets/lib/owlcarousel/owl.carousel.min.js"></script>
-<script src="../assets/lib/isotope/isotope.pkgd.min.js"></script>
-<script src="../assets/lib/lightbox/js/lightbox.min.js"></script>
-<!-- Contact Form JavaScript File -->
-<script src="../assets/contactform/contactform.js"></script>
-
-<!-- Template Main Javascript File -->
-<script src="../assets/js/main.js"></script>
-
-
-<script>
-    $(".test").onepage_scroll();
-</script>
 
 <router-outlet></router-outlet>
